@@ -3,7 +3,7 @@ entries:
   openvpn-client:
   - apiVersion: v2
     appVersion: 1.2.10
-    created: "2021-11-26T14:49:30.451719305-05:00"
+    created: "2021-11-26T15:03:16.326942013-05:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -25,4 +25,4 @@ entries:
     urls:
     - https://anthonytam.github.io/helm-charts/index/openvpn-client/openvpn-client-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-26T14:49:30.436925516-05:00"
+generated: "2021-11-26T15:03:16.313283171-05:00"

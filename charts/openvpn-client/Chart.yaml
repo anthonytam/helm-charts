@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 1.2.10
 description: OpenVPN is a virtual private network system that implements techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities.
 name: openvpn-client
-version: 0.1.1
+version: 1.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
 - openvpn

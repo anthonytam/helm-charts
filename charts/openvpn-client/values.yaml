@@ -8,6 +8,10 @@ securityContext:
     add:
       - NET_ADMIN
 
+service:
+  main:
+    enabled: false
+
 configmap:
   config:
     enabled: true
