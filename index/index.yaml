@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  openvpn-client:
+  - apiVersion: v2
+    appVersion: 1.2.10
+    created: "2021-11-26T14:34:32.635667502-05:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.2.0
+    description: OpenVPN is a virtual private network system that implements techniques
+      to create secure point-to-point or site-to-site connections in routed or bridged
+      configurations and remote access facilities.
+    digest: ef422440931ae2ef659e922ba8ee33689c9a88af11ba2da71bf61f0dea21bd56
+    home: https://github.com/anthonytam/helm-charts/tree/master/charts/openvpn-client
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/OpenVPN_logo.svg/220px-OpenVPN_logo.svg.png
+    keywords:
+    - openvpn
+    kubeVersion: '>=1.16.0-0'
+    name: openvpn-client
+    sources:
+    - https://openvpn.net/
+    - https://github.com/dperson/openvpn-client
+    - https://github.com/k8s-at-home/library-charts
+    urls:
+    - https://anthonytam.github.io/helm-charts/openvpn-client/openvpn-client-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-26T14:34:32.62188508-05:00"
