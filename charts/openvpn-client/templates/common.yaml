@@ -1,0 +1,21 @@
+{{/* Make sure all variables are set properly */}}
+{{- include "common.values.setup" . }}
+
+{{/* Append the hardcoded settings */}}
+{{- define "openvpn-client.harcodedValues" -}}
+
+  {{- if .Values.configmap.config.enabled }}
+  {{/* Append the configMap volume to the volumes */}}
+  persistence:
+    config:
+      enabled: true
+      type: "configMap"
+      name: "{{ include "common.names.fullname" . }}-config"
+      mountPath: "/vpn/vpn.conf"
+      subPath: "vpn.conf"
+  {{- end }}
+{{- end -}}
+{{- $_ := mergeOverwrite .Values (include "openvpn-client.harcodedValues" . | fromYaml) -}}
+
+{{/* Render the templates */}}
+{{ include "common.all" . }}
