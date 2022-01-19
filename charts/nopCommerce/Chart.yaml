@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 4.40.4
+description: nopCommerce is the best open-source e-commerce shopping cart.
+icon: https://docs.nopcommerce.com/logo.png
+name: nopCommerce
+type: application
+version: 0.1.0
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.0.1

@@ -1,0 +1,18 @@
+global:
+  nameOverride:
+  fullnameOverride:
+
+image:
+  repository: nopcommerceteam/nopcommerce
+  tag: 4.40.4
+  pullPolicy: IfNotPresent
+
+# -- Configure the services for the chart here.
+service:
+  main:
+    enabled: false
+
+# -- Configure the ingresses for the chart here.
+ingress:
+  main:
+    enabled: false
