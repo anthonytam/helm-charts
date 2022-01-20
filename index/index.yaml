@@ -1,25 +1,25 @@
 apiVersion: v1
 entries:
-  nopCommerce:
+  nopcommerce:
   - apiVersion: v2
     appVersion: 4.40.4
-    created: "2022-01-19T23:30:02.333236415Z"
+    created: "2022-01-20T00:47:12.169658541Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.0.1
     description: nopCommerce is the best open-source e-commerce shopping cart.
-    digest: 547019851b24cbdc1a57acb4f0b273087c063a10da958bffd750588914820e4b
+    digest: e11c56feba3c1e2721d034c93a2b664b4799b513358ac65327fb01bd54472efa
     icon: https://docs.nopcommerce.com/logo.png
-    name: nopCommerce
+    name: nopcommerce
     type: application
     urls:
-    - https://anthonytam.github.io/helm-charts/index/nopCommerce/nopCommerce-0.1.0.tgz
-    version: 0.1.0
+    - https://anthonytam.github.io/helm-charts/index/nopcommerce/nopcommerce-0.1.1.tgz
+    version: 0.1.1
   openvpn-client:
   - apiVersion: v2
     appVersion: 1.2.10
-    created: "2022-01-19T23:30:02.338342157Z"
+    created: "2022-01-20T00:47:12.174823752Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://anthonytam.github.io/helm-charts/index/openvpn-client/openvpn-client-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-19T23:30:02.328741671Z"
+generated: "2022-01-20T00:47:12.164950642Z"
