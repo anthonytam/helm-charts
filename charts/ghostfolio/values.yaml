@@ -1,0 +1,21 @@
+global:
+  nameOverride:
+  fullnameOverride:
+
+image:
+  repository: ghostfolio/ghostfolio
+  tag: 1.195.0
+  pullPolicy: IfNotPresent
+
+# -- Configure the services for the chart here.
+service:
+  main:
+    enabled: false
+    ports:
+      http:
+        port: 3333
+
+# -- Configure the ingresses for the chart here.
+ingress:
+  main:
+    enabled: false

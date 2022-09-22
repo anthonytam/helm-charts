@@ -1,9 +1,26 @@
 apiVersion: v1
 entries:
+  ghostfolio:
+  - apiVersion: v2
+    appVersion: 1.195.0
+    created: "2022-09-21T20:02:29.7105002-04:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Ghostfolio is an open source wealth management software built with
+      web technology.
+    digest: cd388f32a67a987b4845c48c03bf947eb6dd4d28db471e09a4bbee0e59c41780
+    icon: https://avatars.githubusercontent.com/u/82473144?s=200
+    name: ghostfolio
+    type: application
+    urls:
+    - https://anthonytam.github.io/helm-charts/index/ghostfolio/ghostfolio-0.1.0.tgz
+    version: 0.1.0
   nopcommerce:
   - apiVersion: v2
     appVersion: 4.40.4
-    created: "2022-01-20T00:47:12.169658541Z"
+    created: "2022-09-21T20:02:29.7148402-04:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -19,7 +36,7 @@ entries:
   openvpn-client:
   - apiVersion: v2
     appVersion: 1.2.10
-    created: "2022-01-20T00:47:12.174823752Z"
+    created: "2022-09-21T20:02:29.7194469-04:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -41,4 +58,4 @@ entries:
     urls:
     - https://anthonytam.github.io/helm-charts/index/openvpn-client/openvpn-client-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-20T00:47:12.164950642Z"
+generated: "2022-09-21T20:02:29.7035249-04:00"

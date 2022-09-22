@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 1.195.0
+description: Ghostfolio is an open source wealth management software built with web technology.
+icon: https://avatars.githubusercontent.com/u/82473144?s=200
+name: ghostfolio
+type: application
+version: 0.1.0
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.5.2
